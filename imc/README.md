@@ -10,4 +10,4 @@ The application calculates your Body mass index (BMI) according to the reported 
 
 ## Preview
 <br> 
-<img src="..\assets\imc-preview.png" alt="logo" align="right">
+<img src="..\assets\imc-preview.png" alt="logo">
