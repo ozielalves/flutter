@@ -29,48 +29,77 @@ class _HomeState extends State<Home> {
   }
 
   Widget build(BuildContext context) {
-    return Stack(children: <Widget>[
-      Image.asset(
-        "images/beco.jpg",
-        fit: BoxFit.cover,
-        height: 1000.0,
-      ),
-      Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          Text("People: $_people",
-              style:
-                  TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
-          Row(
+    return Material(
+        type: MaterialType.transparency,
+        child: Stack(children: <Widget>[
+          Image.asset(
+            "images/beco.jpg",
+            fit: BoxFit.cover,
+            height: 1000.0,
+          ),
+          Center(
+              child: Container(
+            width: 350.0,
+            height: 250.0,
+            decoration: BoxDecoration(
+              color: Colors.black45,
+              borderRadius: BorderRadius.all(Radius.circular(
+                      10.0) //                 <--- border radius here
+                  ),
+            ),
+          )),
+          Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Padding(
-                  padding: EdgeInsets.all(10.0),
-                  child: FlatButton(
-                    child: Text("+1",
-                        style: TextStyle(fontSize: 40.0, color: Colors.white)),
-                    onPressed: () {
-                      _changePeople(1);
-                    },
-                  )),
-              Padding(
-                  padding: EdgeInsets.all(10.0),
-                  child: FlatButton(
-                    child: Text("-1",
-                        style: TextStyle(fontSize: 40.0, color: Colors.white)),
-                    onPressed: () {
-                      _changePeople(-1);
-                    },
-                  )),
+              Text("People: $_people",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 40)),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Padding(
+                      padding: EdgeInsets.fromLTRB(10.0, 20.0, 10.0, 20.0),
+                      child: Container(
+                          decoration: BoxDecoration(
+                              color: Colors.black12,
+                              border:
+                                  Border.all(width: 2.0, color: Colors.white70),
+                              borderRadius: BorderRadius.circular(10.0)),
+                          child: FlatButton(
+                            child: Text("+1",
+                                style: TextStyle(
+                                    fontSize: 40.0, color: Colors.white)),
+                            onPressed: () {
+                              _changePeople(1);
+                            },
+                          ))),
+                  Padding(
+                      padding: EdgeInsets.fromLTRB(10.0, 20.0, 10.0, 20.0),
+                      child: Container(
+                          decoration: BoxDecoration(
+                              color: Colors.black12,
+                              border:
+                                  Border.all(width: 2.0, color: Colors.white70),
+                              borderRadius: BorderRadius.circular(10.0)),
+                          child: FlatButton(
+                            child: Text("-1",
+                                style: TextStyle(
+                                    fontSize: 40.0, color: Colors.white)),
+                            onPressed: () {
+                              _changePeople(-1);
+                            },
+                          ))),
+                ],
+              ),
+              Text("$_message",
+                  style: TextStyle(
+                      fontStyle: FontStyle.italic,
+                      color: Colors.yellowAccent,
+                      fontSize: 30))
             ],
-          ),
-          Text("$_message",
-              style: TextStyle(
-                  fontStyle: FontStyle.italic,
-                  color: Colors.white,
-                  fontSize: 30))
-        ],
-      )
-    ]);
+          )
+        ]));
   }
 }

@@ -4,6 +4,7 @@ void main() {
   runApp(MaterialApp(
     title: "Calculadora IMD",
     home: Home(),
+    debugShowCheckedModeBanner: false,
   ));
 }
 
@@ -70,14 +71,28 @@ class _HomeState extends State<Home> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              ShaderMask(
-                shaderCallback: (bounds) => RadialGradient(
-                  center: Alignment.topLeft,
-                  radius: 5.0,
-                  colors: [Colors.white, Colors.teal],
-                  tileMode: TileMode.mirror,
-                ).createShader(bounds),
-                child: Icon(Icons.person, size: 120, color: Colors.white),
+              Row(
+                children: <Widget>[
+                  ShaderMask(
+                    shaderCallback: (bounds) => RadialGradient(
+                      center: Alignment.topLeft,
+                      radius: 5.0,
+                      colors: [Colors.white, Colors.teal],
+                      tileMode: TileMode.mirror,
+                    ).createShader(bounds),
+                    child: Icon(Icons.person, size: 120, color: Colors.white),
+                  ),
+                  Padding(
+                      padding: EdgeInsets.only(left: 20.0),
+                      child: Container(
+                        constraints: BoxConstraints(maxWidth: 200),
+                        child: Text(
+                          _textInfo,
+                          textAlign: TextAlign.center,
+                          style: TextStyle(color: Colors.teal, fontSize: 25.0),
+                        ),
+                      ))
+                ],
               ),
               Padding(
                 padding: EdgeInsets.only(top: 10.0, bottom: 10.0),
@@ -146,14 +161,6 @@ class _HomeState extends State<Home> {
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10)),
                     )),
-              ),
-              Padding(
-                padding: EdgeInsets.only(top: 30.0, bottom: 10.0),
-                child: Text(
-                  _textInfo,
-                  textAlign: TextAlign.center,
-                  style: TextStyle(color: Colors.indigo, fontSize: 25.0),
-                ),
               )
             ],
           ),
