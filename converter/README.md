@@ -1,6 +1,6 @@
 <img src="..\assets\flutter-logo.png" width="30" alt="logo" align="right">
 
-# BMI Calculator &middot; [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm)
+# Real, Dollar and Euro converter &middot; [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm)
 
 > Currency converter
 
