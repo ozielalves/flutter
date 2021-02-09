@@ -10,4 +10,4 @@ The application increments and decrements the number of people by tapping on the
 
 ## Preview
 <br> 
-<img src="..\assets\restaurant-counter-preview.png" alt="logo" align="right">
+<img src="..\assets\restaurant-counter-preview.png" alt="logo">
