@@ -1,6 +1,6 @@
 <img src="assets\flutter-logo.png" width="30" alt="logo" align="right">
 
-# Flutter Study &middot; [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm) [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/npm)
+# Flutter Study &middot; [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm)
 
 > Simple apps
 
