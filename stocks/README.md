@@ -11,7 +11,7 @@ The application allows the user to select the Company whose search must be carri
 ## **Prototype** ([Figma](https://www.figma.com/file/JUDNuXlKTtZ9VxClA26Ip1/Stocks?node-id=0%3A1))
 
 <br> 
-<img src="..\assets\Stocks-Figma.png" alt="Figma">
+<img src="..\assets\Stocks-Figma.png" width="400" alt="Figma">
 
 ## **Preview**
 
