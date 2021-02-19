@@ -1,6 +1,6 @@
 <img src="..\assets\flutter-logo.png" width="30" alt="logo" align="right">
 
-# Stocks &middot; [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm)
+# Stocks &middot; [![Flutter version](https://img.shields.io/badge/flutter-v1.22.6-blue?logo=flutter)](https://flutter.dev/docs/get-started/install) [![GitHub license](https://img.shields.io/github/license/filipegmedeiros/gatinhos_ufrn?color=blue)](http://www.apache.org/licenses/)
 
 > App for consulting Stock exchanges - **BOVESPA**
 
