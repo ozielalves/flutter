@@ -6,8 +6,16 @@
 
 The What Todo application allows the user to add tasks and todos for each task. When completing a todo it is possible to mark it as completed through the checkbox button. Tasks can be deleted at any time by discarding the item in the list on the home page or by tapping the delete button in the task view.
 
+- [X] Flutter Svg lib
+- [X] Dismissible task item
+- [X] Interactive task creation
+- [X] Check/Uncheck todo as completed
+- [X] Save status on Enter
+- [X] Snackbar
+- [X] Undo delete option (Recursive)
+
 ## **Preview**
 
 <br> 
-<img src="..\assets\what-todo.png" alt="logo">
+<img src="..\assets\what_todo.png" alt="logo">
 
