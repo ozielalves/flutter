@@ -9,5 +9,5 @@ The What Todo application allows the user to add tasks and todos for each task. 
 ## **Preview**
 
 <br> 
-<img src="..\assets\what-todo.png" alt="logo">
+<img src="..\assets\what_todo.png" alt="logo">
 
