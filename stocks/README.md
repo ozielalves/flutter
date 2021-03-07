@@ -1,6 +1,6 @@
 <img src="..\assets\flutter-logo.png" width="30" alt="logo" align="right">
 
-# Stocks &middot; [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm)
+# Stocks &middot; [![Flutter version](https://img.shields.io/badge/flutter-v1.22.6-blue?logo=flutter)](https://flutter.dev/docs/get-started/install) [![GitHub license](https://img.shields.io/github/license/filipegmedeiros/gatinhos_ufrn?color=blue)](http://www.apache.org/licenses/)
 
 > App for consulting Stock exchanges - **BOVESPA**
 
@@ -11,9 +11,9 @@ The application allows the user to select the Company whose search must be carri
 ## **Prototype** ([Figma](https://www.figma.com/file/JUDNuXlKTtZ9VxClA26Ip1/Stocks?node-id=0%3A1))
 
 <br> 
-<img src="..\assets\Stocks-figma.png" alt="logo">
+<img src="..\assets\Stocks-Figma.png" width="600" alt="Figma">
 
 ## **Preview**
 
 <br> 
-<img src="..\assets\Stocks.png" alt="logo">
+<img src="..\assets\Stocks.png" alt="Preview">
