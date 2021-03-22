@@ -19,5 +19,5 @@ The application allows the user to select the Company whose search must be carri
 <img src="..\assets\Stocks.png" alt="Preview">
 
 ## TODO
-- [] Svg Images;
-- [] Autocomplete fix;
+- [ ] Svg Images;
+- [ ] Autocomplete fix;
