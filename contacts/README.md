@@ -16,5 +16,6 @@ This app aims to reproduce a cool contact list.
 ## **Preview**
 
 <br> 
-<img src="..\assets\what_todo.png" alt="logo">
+<img src="..\assets\contacts_preview_1.png" alt="logo">
+<img src="..\assets\contacts_preview_2.png" alt="logo">
 
