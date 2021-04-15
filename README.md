@@ -8,6 +8,10 @@ This repository aims to implement simple applications to promote the learning of
 
 <br>
 
+## Preview
+
+<img src="assets\AllApps.png" alt="logo">
+
 ## Getting started
 
 Cloning the repository:
